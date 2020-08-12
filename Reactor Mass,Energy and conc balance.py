@@ -1,11 +1,12 @@
-#In this code, we are solving a CSTR reactor problem. Follow the comments to know the details. Once you understood how CSTR model is solved, you can Solve any reactor by doing 
-#-needed changes in code.
+#In this code, we are solving a CSTR reactor problem. Follow the comments to know the details.
+#lets begin!
+#first_import libraries. 
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
 
 
-# define mixing model
+# then define mixing model of CSTR
 def reactor(x, t, q, qf, Caf, Tf):
     # Inputs= (4):
     # qf= I/L VFR (L/min)
@@ -40,7 +41,8 @@ def reactor(x, t, q, qf, Caf, Tf):
     return [dVdt, dCadt, dTdt]
 
 
-# Initial Conditions for the States (For a CSTR question)
+# Initial Conditions for the States 
+#(For a certain CSTR question, assume following initial condtions)
 V0 = 1.0  # in liter
 Ca0 = 0.0  # mol/L
 T0 = 350  # in K
