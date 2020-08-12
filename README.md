@@ -1,5 +1,5 @@
 # Python-chemical-engg-codes
-(If you are opening iit in Mobile, click on view code above)
+(If you are opening it in Mobile, click on view code above)
   
    In this code, we are solving a CSTR reactor problem. Follow the comments to know the details. Once you understood how CSTR model is solved, you can Solve any reactor by doing 
 needed changes in code.
