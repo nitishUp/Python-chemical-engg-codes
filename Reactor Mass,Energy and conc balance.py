@@ -1,3 +1,5 @@
+#In this code, we are solving a CSTR reactor problem. Follow the comments to know the details. Once you understood how CSTR model is solved, you can Solve any reactor by doing 
+#-needed changes in code.
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.integrate import odeint
